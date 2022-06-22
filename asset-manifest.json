@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/venia/static/css/main.fc313d1b.css",
-    "main.js": "/venia/static/js/main.968b8aa9.js",
-    "static/media/banner.png": "/venia/static/media/banner.d3634fde96550fa32110.png",
-    "static/media/product2.jpg": "/venia/static/media/product2.3f14b9bd3d076452d15f.jpg",
-    "static/media/product3.jpg": "/venia/static/media/product3.6054ca9658ccc7f4232e.jpg",
-    "static/media/product44.jpg": "/venia/static/media/product44.1b6b8ca6875cdfba64a1.jpg",
-    "static/media/sweat.png": "/venia/static/media/sweat.be8a333ac8b292aee147.png",
-    "static/media/materials.png": "/venia/static/media/materials.ac3c80afb98202d30c79.png",
-    "static/media/feather.png": "/venia/static/media/feather.5324d928440f0fc00eb7.png",
-    "static/media/breathable.png": "/venia/static/media/breathable.935733a5ee94b4b80793.png",
-    "static/media/spinner.gif": "/venia/static/media/spinner.e9202c75d969bfbffe5a.gif",
-    "index.html": "/venia/index.html",
-    "main.fc313d1b.css.map": "/venia/static/css/main.fc313d1b.css.map",
-    "main.968b8aa9.js.map": "/venia/static/js/main.968b8aa9.js.map"
+    "main.css": "/adobereactassignment/static/css/main.fc313d1b.css",
+    "main.js": "/adobereactassignment/static/js/main.ed41192b.js",
+    "static/media/banner.png": "/adobereactassignment/static/media/banner.d3634fde96550fa32110.png",
+    "static/media/product2.jpg": "/adobereactassignment/static/media/product2.3f14b9bd3d076452d15f.jpg",
+    "static/media/product3.jpg": "/adobereactassignment/static/media/product3.6054ca9658ccc7f4232e.jpg",
+    "static/media/product44.jpg": "/adobereactassignment/static/media/product44.1b6b8ca6875cdfba64a1.jpg",
+    "static/media/sweat.png": "/adobereactassignment/static/media/sweat.be8a333ac8b292aee147.png",
+    "static/media/materials.png": "/adobereactassignment/static/media/materials.ac3c80afb98202d30c79.png",
+    "static/media/feather.png": "/adobereactassignment/static/media/feather.5324d928440f0fc00eb7.png",
+    "static/media/breathable.png": "/adobereactassignment/static/media/breathable.935733a5ee94b4b80793.png",
+    "static/media/spinner.gif": "/adobereactassignment/static/media/spinner.e9202c75d969bfbffe5a.gif",
+    "index.html": "/adobereactassignment/index.html",
+    "main.fc313d1b.css.map": "/adobereactassignment/static/css/main.fc313d1b.css.map",
+    "main.ed41192b.js.map": "/adobereactassignment/static/js/main.ed41192b.js.map"
   },
   "entrypoints": [
     "static/css/main.fc313d1b.css",
-    "static/js/main.968b8aa9.js"
+    "static/js/main.ed41192b.js"
   ]
 }
