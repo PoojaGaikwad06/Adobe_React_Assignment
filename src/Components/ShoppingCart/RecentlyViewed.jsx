@@ -25,7 +25,7 @@ const RecentlyViewed = () => {
                             <div className="recent-view-section-img">
                                 <img src={product44} alt="" className="rec-img" />
                                 <h4><b>Mens Casual Premium Slim Fit</b></h4><br />
-                                <p>$144</p>
+                                <p>$244</p>
                             </div>
 
                         </div>
