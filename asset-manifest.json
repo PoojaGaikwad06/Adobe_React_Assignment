@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PoojaGaikwad06/Adobe_React_Assignment/static/css/main.fc313d1b.css",
-    "main.js": "/PoojaGaikwad06/Adobe_React_Assignment/static/js/main.56781084.js",
+    "main.js": "/PoojaGaikwad06/Adobe_React_Assignment/static/js/main.73e7e1d7.js",
     "static/media/banner.png": "/PoojaGaikwad06/Adobe_React_Assignment/static/media/banner.d3634fde96550fa32110.png",
     "static/media/product2.jpg": "/PoojaGaikwad06/Adobe_React_Assignment/static/media/product2.3f14b9bd3d076452d15f.jpg",
     "static/media/product3.jpg": "/PoojaGaikwad06/Adobe_React_Assignment/static/media/product3.6054ca9658ccc7f4232e.jpg",
@@ -13,10 +13,10 @@
     "static/media/spinner.gif": "/PoojaGaikwad06/Adobe_React_Assignment/static/media/spinner.e9202c75d969bfbffe5a.gif",
     "index.html": "/PoojaGaikwad06/Adobe_React_Assignment/index.html",
     "main.fc313d1b.css.map": "/PoojaGaikwad06/Adobe_React_Assignment/static/css/main.fc313d1b.css.map",
-    "main.56781084.js.map": "/PoojaGaikwad06/Adobe_React_Assignment/static/js/main.56781084.js.map"
+    "main.73e7e1d7.js.map": "/PoojaGaikwad06/Adobe_React_Assignment/static/js/main.73e7e1d7.js.map"
   },
   "entrypoints": [
     "static/css/main.fc313d1b.css",
-    "static/js/main.56781084.js"
+    "static/js/main.73e7e1d7.js"
   ]
 }
