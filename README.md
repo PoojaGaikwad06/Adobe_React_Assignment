@@ -81,7 +81,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## Light House Report
 
-![Light house Image](./src/Assets/report_1.png)
+![Light house Image](./src/Assets/report.png)
 
 ## Github Deployment steps 
 - $ github login \
