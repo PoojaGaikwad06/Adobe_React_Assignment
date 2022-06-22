@@ -6,6 +6,11 @@ $desktop-md-width: 1280px;
 $desktop-lg-width: 1440px;
 $desktop-xl-width: 1920px;
 
+$header-font-family: 'Mulish', sans-serif;
+$header-background-color: #ffffff;
+$header-text-color: #1b252c;
+$header-font-size: 16px;
+
 @media screen and (min-device-width: $mobile-width) and (max-device-width: 767px) {
   .navbar-desktop {
     display: none;
@@ -16,6 +21,7 @@ $desktop-xl-width: 1920px;
     width: 50% !important;
     text-align: center;
     margin: 0 auto;
+    display: block;
   }
 
   .clickme {
@@ -92,10 +98,7 @@ $desktop-xl-width: 1920px;
   }
 }
 
-$header-font-family: 'Mulish', sans-serif;
-$header-background-color: #ffffff;
-$header-text-color: #1b252c;
-$header-font-size: 16px;
+
 
 header {
   display: flex;
@@ -111,7 +114,7 @@ header {
 
 .logo {
   cursor: pointer;
-  width: 10%;
+  width: 50%;
 }
 
 .nav__link {

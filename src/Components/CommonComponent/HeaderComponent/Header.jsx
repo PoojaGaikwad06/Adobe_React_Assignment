@@ -5,7 +5,7 @@ import search from "../../../Assets/search.png"
 import user from "../../../Assets/user.png";
 import bag from "../../../Assets/bag.png";
 import menubtn from "../../../Assets/menubtn.png";
-
+import { Link } from "react-router-dom";
 
 class Header extends React.Component {
     state = { flag: false }
@@ -14,7 +14,10 @@ class Header extends React.Component {
         return (
             <>
                 <header>
+                <Link style={{ textDecoration: 'none', color: "#1B252C" }} to={`/adobereactassignment`}>
+
                     <img src={logo} alt="Venia" className="logo" />
+                    </Link>
                     <nav className="navbar-desktop">
                         <ul className="nav__link">
                             <li><a href="/adobereactassignment">Women</a></li>
@@ -39,7 +42,7 @@ class Header extends React.Component {
                 </div>
                 {this.state.flag ? <nav className="navbar-mobile" id="menu-div">
                     <ul className="nav__link">
-                        <li><a href="/">Women</a></li>
+                        <li><a href="/adobereactassignment">Women</a></li>
                         <li><a href="#">Men</a></li>
                         <li><a href="#">Smart Gear</a></li>
                         <li><a href="#">Accessories</a></li>

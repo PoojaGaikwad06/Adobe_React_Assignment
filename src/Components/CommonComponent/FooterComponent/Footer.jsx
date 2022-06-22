@@ -46,9 +46,9 @@ class Footer extends React.Component {
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
 
                             <div className="icons">
-                                <div><img src={instagram} className="insta" /></div>
-                                <div><img src={facebook} className="fcb" /></div>
-                                <div><img src={twitter} className="twt" /></div>
+                                <div><img src={instagram} alt="instagram" className="insta" /></div>
+                                <div><img src={facebook} alt="facebook" className="fcb" /></div>
+                                <div><img src={twitter} alt="twitter" className="twt" /></div>
                             </div>
                         </div>
                     </div>
