@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300&family=Playfair+Display:ital,wght@1,500&display=swap');
+$mobile-width: 320px;
+$tablet-width: 768px;
+$desktop-width: 1024px;
+$desktop-md-width: 1280px;
+$desktop-lg-width: 1440px;
+$desktop-xl-width: 1920px;
+
+@media screen and (min-device-width: $mobile-width) and (max-device-width: 767px) {
+  .navbar-desktop {
+    display: none;
+  }
+
+  .logo {
+    cursor: pointer;
+    width: 50% !important;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .clickme {
+    position: absolute;
+    top: 19px !important;
+    left: 10px;
+  }
+
+  .search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .signin {
+    display: none !important;
+  }
+
+  .lable {
+    display: none !important;
+  }
+
+  .share-product {
+    margin-left: 0px !important;
+  }
+
+  .quantity {
+    justify-content: center !important;
+  }
+
+  .navbar-mobile {
+    width: 100%;
+    background-color: #f4f5f5;
+    padding: 20px;
+    height: 468px;
+    position: relative;
+    z-index: 1;
+    margin-top: -10px;
+  }
+
+  .nav__link li {
+    display: block !important;
+    padding: 10px !important;
+    border-bottom: 1px solid #ede9e9 !important;
+  }
+
+  .nav__link li a {
+    text-decoration: none;
+  }
+
+  header {
+    padding: 20px !important;
+  }
+
+  .lab-1,
+  .lab-2 {
+    display: none !important;
+  }
+
+  .search {
+    display: flex !important;
+    grid-template-columns: 1fr 1fr !important;
+  }
+
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1920px) {
+  .clickme {
+    display: none !important;
+  }
+
+  header {
+    font-size: 13px !important;
+  }
+}
+
+$header-font-family: 'Mulish', sans-serif;
+$header-background-color: #ffffff;
+$header-text-color: #1b252c;
+$header-font-size: 16px;
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 10%;
+  background-color: $header-background-color;
+  border: 1px solid #ddd;
+  font-family: $header-font-family;
+  color: $header-text-color;
+  font-size: $header-font-size;
+}
+
+.logo {
+  cursor: pointer;
+  width: 10%;
+}
+
+.nav__link {
+  list-style: none;
+}
+
+.nav__link li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav__link li a {
+  text-decoration: none;
+  color: #1b252c;
+  font-weight: bold;
+}
+
+.search {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 0.5fr 1fr 0.5fr;
+}
+
+.srch {
+  height: 20px;
+}
+
+.signin {
+  margin-left: 15px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.s-bag {
+  margin-left: 15px;
+  height: 20px;
+}
+
+.lab-1,
+.lab-2 {
+  color: #1b252c;
+  font-weight: bold;
+}

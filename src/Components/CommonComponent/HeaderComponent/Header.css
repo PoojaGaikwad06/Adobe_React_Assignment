@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300&family=Playfair+Display:ital,wght@1,500&display=swap");
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 30px 10%;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  font-family: "Mulish", sans-serif;
+  color: #1b252c;
+  font-size: 16px;
+}
+
+.logo {
+  cursor: pointer;
+  width: 10%;
+}
+
+.nav__link {
+  list-style: none;
+}
+
+.nav__link li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.search {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 0.5fr 1fr 0.5fr 1fr 0.5fr;
+  grid-template-columns: 0.5fr 1fr 0.5fr 1fr 0.5fr;
+}
+
+.srch {
+  height: 15px;
+}
+
+.signin {
+  margin-left: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+
+.s-bag {
+  margin-left: 15px;
+  height: 15px;
+}
