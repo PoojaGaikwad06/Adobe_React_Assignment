@@ -15,8 +15,8 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route path='/' exact element={<ProductListing />} />
-          <Route path='/product/:productID' exact element={<ProductDetails />} />
+          <Route path='adobereactassignment' exact element={<ProductListing />} />
+          <Route path='/product/:productID' element={<ProductDetails />} />
           <Route path='/shoppingcart' element={<ShoppingCart />} />
           <Route>404 Not Found !</Route>
         </Routes>

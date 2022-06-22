@@ -17,18 +17,18 @@ class Header extends React.Component {
                     <img src={logo} alt="Venia" className="logo" />
                     <nav className="navbar-desktop">
                         <ul className="nav__link">
-                            <li><a href="/">Women</a></li>
+                            <li><a href="/adobereactassignment">Women</a></li>
                             <li><a href="#">Men</a></li>
                             <li><a href="#">Smart Gear</a></li>
                             <li><a href="#">Accessories</a></li>
                         </ul>
                     </nav>
                     <div className="search">
-                        <div><img src={search} alt="taste of fruit" className="srch" /></div>
+                        <div><img src={search} alt="search" className="srch" /></div>
                         <label className="lab-1">Search</label>
-                        <div><img src={user} alt="taste of fruit" className="signin" /></div>
+                        <div><img src={user} alt="user" className="signin" /></div>
                         <label className="lab-2">Sign In</label>
-                        <div><img src={bag} alt="taste of fruit" className="s-bag" /></div>
+                        <div><img src={bag} alt="bag" className="s-bag" /></div>
                     </div>
                 </header>
 
