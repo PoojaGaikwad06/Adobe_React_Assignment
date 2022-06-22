@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/PoojaGaikwad06/Adobe_React_Assignment/static/css/main.fc313d1b.css",
-    "main.js": "/PoojaGaikwad06/Adobe_React_Assignment/static/js/main.73e7e1d7.js",
-    "static/media/banner.png": "/PoojaGaikwad06/Adobe_React_Assignment/static/media/banner.d3634fde96550fa32110.png",
-    "static/media/product2.jpg": "/PoojaGaikwad06/Adobe_React_Assignment/static/media/product2.3f14b9bd3d076452d15f.jpg",
-    "static/media/product3.jpg": "/PoojaGaikwad06/Adobe_React_Assignment/static/media/product3.6054ca9658ccc7f4232e.jpg",
-    "static/media/product44.jpg": "/PoojaGaikwad06/Adobe_React_Assignment/static/media/product44.1b6b8ca6875cdfba64a1.jpg",
-    "static/media/sweat.png": "/PoojaGaikwad06/Adobe_React_Assignment/static/media/sweat.be8a333ac8b292aee147.png",
-    "static/media/materials.png": "/PoojaGaikwad06/Adobe_React_Assignment/static/media/materials.ac3c80afb98202d30c79.png",
-    "static/media/feather.png": "/PoojaGaikwad06/Adobe_React_Assignment/static/media/feather.5324d928440f0fc00eb7.png",
-    "static/media/breathable.png": "/PoojaGaikwad06/Adobe_React_Assignment/static/media/breathable.935733a5ee94b4b80793.png",
-    "static/media/spinner.gif": "/PoojaGaikwad06/Adobe_React_Assignment/static/media/spinner.e9202c75d969bfbffe5a.gif",
-    "index.html": "/PoojaGaikwad06/Adobe_React_Assignment/index.html",
-    "main.fc313d1b.css.map": "/PoojaGaikwad06/Adobe_React_Assignment/static/css/main.fc313d1b.css.map",
-    "main.73e7e1d7.js.map": "/PoojaGaikwad06/Adobe_React_Assignment/static/js/main.73e7e1d7.js.map"
+    "main.css": "/venia/static/css/main.fc313d1b.css",
+    "main.js": "/venia/static/js/main.968b8aa9.js",
+    "static/media/banner.png": "/venia/static/media/banner.d3634fde96550fa32110.png",
+    "static/media/product2.jpg": "/venia/static/media/product2.3f14b9bd3d076452d15f.jpg",
+    "static/media/product3.jpg": "/venia/static/media/product3.6054ca9658ccc7f4232e.jpg",
+    "static/media/product44.jpg": "/venia/static/media/product44.1b6b8ca6875cdfba64a1.jpg",
+    "static/media/sweat.png": "/venia/static/media/sweat.be8a333ac8b292aee147.png",
+    "static/media/materials.png": "/venia/static/media/materials.ac3c80afb98202d30c79.png",
+    "static/media/feather.png": "/venia/static/media/feather.5324d928440f0fc00eb7.png",
+    "static/media/breathable.png": "/venia/static/media/breathable.935733a5ee94b4b80793.png",
+    "static/media/spinner.gif": "/venia/static/media/spinner.e9202c75d969bfbffe5a.gif",
+    "index.html": "/venia/index.html",
+    "main.fc313d1b.css.map": "/venia/static/css/main.fc313d1b.css.map",
+    "main.968b8aa9.js.map": "/venia/static/js/main.968b8aa9.js.map"
   },
   "entrypoints": [
     "static/css/main.fc313d1b.css",
-    "static/js/main.73e7e1d7.js"
+    "static/js/main.968b8aa9.js"
   ]
 }
