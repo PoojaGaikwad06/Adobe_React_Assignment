@@ -16,6 +16,8 @@ import share from "../../Assets/share.png";
 import { useNavigate } from "react-router-dom";
 import sweat from "../../Assets/sweat.png";
 import Detail from "../../Components/Details/Detail";
+import spinner from "../../Assets/spinner.gif";
+
 
 const ProductDetails = () => {
     let navigate = useNavigate();
@@ -145,7 +147,7 @@ const ProductDetails = () => {
                         <Detail />
                     </div>
 
-                </div> : "loading..."
+                </div> : <center><span><img src={spinner} className="spinner-img" /></span></center>
 
             }
         </section>
