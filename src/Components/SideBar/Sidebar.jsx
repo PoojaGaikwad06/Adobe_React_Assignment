@@ -10,26 +10,26 @@ const Sidebar = () => {
             </div>
             <div className="size">
                 <p>Size</p>
-                <label><input type="checkbox" class="check-box" />X-Small</label>
-                <label><input type="checkbox" class="check-box" />Small</label>
-                <label><input type="checkbox" class="check-box" />Medium</label>
-                <label><input type="checkbox" class="check-box" />Large</label>
-                <label><input type="checkbox" class="check-box" />X-Large</label>
+                <label><input type="checkbox" className="check-box" />X-Small</label>
+                <label><input type="checkbox" className="check-box" />Small</label>
+                <label><input type="checkbox" className="check-box" />Medium</label>
+                <label><input type="checkbox" className="check-box" />Large</label>
+                <label><input type="checkbox" className="check-box" />X-Large</label>
                 <p>see More</p>
             </div>
             <hr className="divider"></hr>
             <div className="style">
                 <p>Style</p>
-                <label><input type="checkbox" class="check-box" />Outdoor</label>
-                <label><input type="checkbox" class="check-box" />Casual</label>
-                <label><input type="checkbox" class="check-box" />Athleisure</label>
-                <label><input type="checkbox" class="check-box" />Running</label>
-                <label><input type="checkbox" class="check-box" />Active</label>
+                <label><input type="checkbox" className="check-box" />Outdoor</label>
+                <label><input type="checkbox" className="check-box" />Casual</label>
+                <label><input type="checkbox" className="check-box" />Athleisure</label>
+                <label><input type="checkbox" className="check-box" />Running</label>
+                <label><input type="checkbox" className="check-box" />Active</label>
             </div>
             <hr className="divider"></hr>
             <div className="color">
                 <p>Color</p>
-                <div class="flex-container">
+                <div className="flex-container">
                     <div className="black">1</div>
                     <div className="white"></div>
                     <div className="lime"></div>
@@ -44,16 +44,16 @@ const Sidebar = () => {
                 <hr className="divider"></hr>
                 <div className="brand">
                     <p>Brand</p>
-                    <label><input type="checkbox" class="check-box" />Calvin Klein</label>
-                    <label><input type="checkbox" class="check-box" />Dolce & Gabbana</label>
-                    <label><input type="checkbox" class="check-box" />Miu Miu</label>
-                    <label><input type="checkbox" class="check-box" />Prada</label>
-                    <label><input type="checkbox" class="check-box" />Rag & Bone</label>
-                    <label><input type="checkbox" class="check-box" />Gucci</label>
-                    <label><input type="checkbox" class="check-box" />Chanel</label>
-                    <label><input type="checkbox" class="check-box" />Salvatore Ferragamo</label>
-                    <label><input type="checkbox" class="check-box" />Marni</label>
-                    <label><input type="checkbox" class="check-box" />Dior</label>
+                    <label><input type="checkbox" className="check-box" />Calvin Klein</label>
+                    <label><input type="checkbox" className="check-box" />Dolce & Gabbana</label>
+                    <label><input type="checkbox" className="check-box" />Miu Miu</label>
+                    <label><input type="checkbox" className="check-box" />Prada</label>
+                    <label><input type="checkbox" className="check-box" />Rag & Bone</label>
+                    <label><input type="checkbox" className="check-box" />Gucci</label>
+                    <label><input type="checkbox" className="check-box" />Chanel</label>
+                    <label><input type="checkbox" className="check-box" />Salvatore Ferragamo</label>
+                    <label><input type="checkbox" className="check-box" />Marni</label>
+                    <label><input type="checkbox" className="check-box" />Dior</label>
                 </div>
                 <hr className="divider"></hr>
 

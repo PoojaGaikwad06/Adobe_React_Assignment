@@ -44,9 +44,9 @@ const ShoppingCart = () => {
                                         <p><b>${ad.price}</b></p>
                                     </div>
 
-                                    <div className="quantity-cart">
+                                    <div className="quantity-cart-detail-page">
                                         <button type="button" onClick={handleDecrement} className="input-grp-txt"><img src={minus} className="minuscount-img-cart" /></button>
-                                        <div className="count-box">
+                                        <div className="count-box-cart">
                                             {quantity}
                                         </div>
                                         <button type="button" onClick={handleIncrement} className="input-grp-txt"><img src={plus} className="pluscount-img-cart" /></button>

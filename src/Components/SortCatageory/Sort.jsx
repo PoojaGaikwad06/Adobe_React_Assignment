@@ -20,7 +20,7 @@ const Sort = () => {
                     </p>
                 </div>
                 <div className="sort-box">
-                    <select class="s-dropdown">
+                    <select className="s-dropdown">
                         <option value="Sort by Latest">Sort by Latest</option>
                     </select>
                 </div>

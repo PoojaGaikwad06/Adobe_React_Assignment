@@ -7,7 +7,7 @@ const PaginationComponent = () => {
     return (
         //pagination start here
         <section className="ui grid container">
-            <div class="pagination-section">
+            <div className="pagination-section">
 
                 <a href="#">&laquo;</a>
 

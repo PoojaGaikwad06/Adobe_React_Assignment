@@ -15,7 +15,7 @@ const ProductComponent = () => {
                 const { id, title, image, price, category } = product;
                 return (
 
-                        <section className="grid-item container" id={id}>
+                        <section className="grid-item container" key={id} id={id}>
                                 <div className="image">
                                         <Link style={{ textDecoration: 'none', color: "#1B252C" }} to={`/product/${id}`}>
                                                 <img src={image} alt={title} className="pro-img" />
@@ -23,7 +23,9 @@ const ProductComponent = () => {
                                 </div>
 
                                 <div className="content">
-                                        <div className="header"><h5 className="heading">{title}</h5></div>
+                                        <div className="header">
+                                                <h4>{title}</h4>
+                                                </div>
                                         <div className="meta price">${price}</div>
                                         <div className="meta">{category}</div>
                                         <div>

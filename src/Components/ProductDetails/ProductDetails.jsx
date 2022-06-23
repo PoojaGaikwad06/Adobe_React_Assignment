@@ -66,7 +66,7 @@ const ProductDetails = () => {
     //Quantity IncDec End
 
     return (
-        <section class="ui grid container">
+        <section className="ui grid container">
             {
                 image ? <div className="product-two-col">
                     <div className="thumbnail-img">
