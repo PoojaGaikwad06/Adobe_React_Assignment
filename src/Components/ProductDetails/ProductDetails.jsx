@@ -30,8 +30,7 @@ const ProductDetails = () => {
     }
     const { productID } = useParams();
     const dispatch = useDispatch();
-    console.log(productID);
-    console.log(useParams());
+    
     const fetchProductDetails = async () => {
         const response = await axios
             .get('https://fakestoreapi.com/products/' + productID) //fetch single product data from api

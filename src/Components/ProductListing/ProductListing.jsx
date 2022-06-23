@@ -5,7 +5,7 @@ import axios from "axios";
 import react, { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { setProducts } from '../../Redux/actions/ProductAction';
-import Banner from "../Bannercomponent/Banner";
+import Banner from "../BannerComponent/Banner";
 import Sort from "../SortCatageory/Sort";
 import Sidebar from "../SideBar/Sidebar";
 import "./ProductListing.scss";
@@ -31,7 +31,6 @@ const ProductListing = () => {
 
 
 
-    console.log(products);
     return (
         <>
 

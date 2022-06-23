@@ -21,9 +21,9 @@ class Header extends React.Component {
                     <nav className="navbar-desktop">
                         <ul className="nav__link">
                             <li><a href="/adobereactassignment">Women</a></li>
-                            <li><a href="#">Men</a></li>
-                            <li><a href="#">Smart Gear</a></li>
-                            <li><a href="#">Accessories</a></li>
+                            <li>Men</li>
+                            <li>Smart Gear</li>
+                            <li>Accessories</li>
                         </ul>
                     </nav>
                     <div className="search">
@@ -43,9 +43,9 @@ class Header extends React.Component {
                 {this.state.flag ? <nav className="navbar-mobile" id="menu-div">
                     <ul className="nav__link">
                         <li><a href="/adobereactassignment">Women</a></li>
-                        <li><a href="#">Men</a></li>
-                        <li><a href="#">Smart Gear</a></li>
-                        <li><a href="#">Accessories</a></li>
+                        <li>Men</li>
+                        <li>Smart Gear</li>
+                        <li>Accessories</li>
                     </ul>
                 </nav> : ""}
 
