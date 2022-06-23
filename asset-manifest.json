@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/adobereactassignment/static/css/main.93eea145.css",
-    "main.js": "/adobereactassignment/static/js/main.ccafb465.js",
+    "main.css": "/adobereactassignment/static/css/main.1c6be712.css",
+    "main.js": "/adobereactassignment/static/js/main.9c394b64.js",
     "static/media/banner.png": "/adobereactassignment/static/media/banner.d3634fde96550fa32110.png",
     "static/media/product2.jpg": "/adobereactassignment/static/media/product2.3f14b9bd3d076452d15f.jpg",
     "static/media/product3.jpg": "/adobereactassignment/static/media/product3.6054ca9658ccc7f4232e.jpg",
@@ -11,11 +11,11 @@
     "static/media/feather.png": "/adobereactassignment/static/media/feather.5324d928440f0fc00eb7.png",
     "static/media/breathable.png": "/adobereactassignment/static/media/breathable.935733a5ee94b4b80793.png",
     "index.html": "/adobereactassignment/index.html",
-    "main.93eea145.css.map": "/adobereactassignment/static/css/main.93eea145.css.map",
-    "main.ccafb465.js.map": "/adobereactassignment/static/js/main.ccafb465.js.map"
+    "main.1c6be712.css.map": "/adobereactassignment/static/css/main.1c6be712.css.map",
+    "main.9c394b64.js.map": "/adobereactassignment/static/js/main.9c394b64.js.map"
   },
   "entrypoints": [
-    "static/css/main.93eea145.css",
-    "static/js/main.ccafb465.js"
+    "static/css/main.1c6be712.css",
+    "static/js/main.9c394b64.js"
   ]
 }
