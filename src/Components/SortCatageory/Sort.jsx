@@ -28,13 +28,13 @@ const Sort = () => {
             </section>
             <div className="filtter-result-mobile">
                 <div className="fillter-img">
-                    <img src={sliders} className="filter-prod" />
+                    <img src={sliders} alt="slider-bar" className="filter-prod" />
                 </div>
                 <div className="filter-text">
                     <p>Filter Results</p>
                 </div>
                 <div className="fillter-img">
-                    <img src={arrowdown} className="sort-prod" />
+                    <img src={arrowdown} alt="up-down-arrow" className="sort-prod" />
                 </div>
                 <div className="filter-text">
                     <p>Filter Results</p>
