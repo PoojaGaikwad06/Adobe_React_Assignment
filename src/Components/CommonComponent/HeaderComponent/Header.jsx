@@ -14,9 +14,9 @@ class Header extends React.Component {
         return (
             <>
                 <header>
-                <Link style={{ textDecoration: 'none', color: "#1B252C" }} to={`/adobereactassignment`}>
+                    <Link style={{ textDecoration: 'none', color: "#1B252C" }} to={`/adobereactassignment`}>
 
-                    <img src={logo} alt="Venia" className="logo" />
+                        <img src={logo} alt="Venia" className="logo" />
                     </Link>
                     <nav className="navbar-desktop">
                         <ul className="nav__link">
@@ -35,6 +35,8 @@ class Header extends React.Component {
                     </div>
                 </header>
 
+                {/* mobile header start */}
+                <div className="main-mobile-section-header">
                 <div className="clickme" onClick={() => {
                     this.setState({ flag: !this.state.flag })
 
@@ -48,6 +50,17 @@ class Header extends React.Component {
                         <li>Accessories</li>
                     </ul>
                 </nav> : ""}
+                <div className="mobile-logo">
+                <Link style={{ textDecoration: 'none', color: "#1B252C" }} to={`/adobereactassignment`}>
+
+                <img src={logo} alt="Venia" className="mobile-logo" />
+                </Link>
+                </div>
+                <div className="mob-icon">
+                <div><img src={search} alt="search" className="srch" /></div>
+                <div><img src={bag} alt="bag" className="s-bag" /></div>
+                </div>
+            </div>
 
             </>
 

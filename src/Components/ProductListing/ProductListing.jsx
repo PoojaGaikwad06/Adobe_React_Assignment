@@ -9,7 +9,6 @@ import Banner from "../BannerComponent/Banner";
 import Sort from "../SortCatageory/Sort";
 import Sidebar from "../SideBar/Sidebar";
 import "./ProductListing.scss";
-import PaginationComponent from "../Pagination/PaginationComponent";
 import spinner from "../../Assets/spinner.gif";
 
 const ProductListing = () => {
@@ -47,9 +46,7 @@ const ProductListing = () => {
                 </div> : <center><span><img src={spinner} alt="loader" className="spinner-img" /></span></center>
                 }
             </section>
-            <div className="pagination-section">
-                <PaginationComponent />
-            </div>
+
         </>
 
     );

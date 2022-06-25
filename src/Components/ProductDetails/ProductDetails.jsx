@@ -26,11 +26,13 @@ const ProductDetails = () => {
 
     const navigateToCart = () => {
         navigate("/shoppingcart") //navigate to cart page
-        dispatch(addTOCart(product))
+        let p = { ...product };
+        p.qty = quantity;
+        dispatch(addTOCart(p))
     }
     const { productID } = useParams();
     const dispatch = useDispatch();
-    
+
     const fetchProductDetails = async () => {
         const response = await axios
             .get('https://fakestoreapi.com/products/' + productID) //fetch single product data from api
