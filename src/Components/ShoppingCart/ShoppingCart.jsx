@@ -35,13 +35,17 @@ const ShoppingCart = () => {
                     {
                         addCart.map((ad, i) => {
                             return (
+                                
                                 <div key={ad.id} className="shopping-cart-section">
                                     <div className="cart-img-section">
                                         <img src={ad.image} className="cartimg" alt="" />
                                     </div>
                                     <div className="cart-title-content">
-                                        <h4>{ad.title} </h4><br />
-                                        <p><b>${ad.price}</b></p>
+                                        <h4>{ad.title} </h4>
+                                        <p>Size: Large</p>
+                                        <p>color: Black</p>
+                                        <p>${ad.price}</p>
+                                        
                                     </div>
 
                                     <div className="quantity-cart-detail-page">
